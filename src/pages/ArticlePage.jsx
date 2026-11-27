@@ -118,7 +118,7 @@ export default function ArticlePage() {
                 src={article.cover}
                 alt={article.coverAlt || article.title}
                 style={{ objectPosition: article.coverPosition || 'center 24%' }}
-                className="max-h-[440px] w-full rounded-2xl border border-line object-cover shadow-md dark:shadow-xl"
+                className="mx-auto block max-h-[440px] w-auto max-w-full rounded-2xl border border-line shadow-md dark:shadow-xl"
               />
               {article.coverAlt && (
                 <figcaption className="mt-2.5 text-center text-[0.86rem] text-muted">
